@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 01</title>
+</head>
+<body>
+    <script>
+
+        function pulalinha() {
+            document.write('<br>')
+        }
+
+        let ano = 2024
+        let minhaIdade = ano - 2007
+        const maeIdade = ano - 1991
+        const paiIdade = ano - 1988
+
+        document.write(`Oi, meu nome é Stefany e tenho ${minhaIdade} anos`)
+        pulalinha
+        document.write(`O nome da minha mãe é Fernanda e ela tem ${maeIdade} anos`)
+        pulalinha
+        document.write(`O nome do meu pai é Jonathan e ele tem ${paiIdade} anos`)
+        pulalinha
+        let media = (minhaIdade + maeIdade + paiIdade) / 3
+        document.write(`A média das idades da minha família é: ${media}`)
+        pulalinha
+
+        ano = 2030
+
+        document.write(' Em 2030 minha família terá: ')
+        document.write(`Eu terei ${ano - 2007} anos`)
+        document.write(`Minha mãe terá ${ano - 1991} anos`)
+        document.write(`Meu pai terá ${ano - 1988} anos`)
+    </script>
+</body>
+</html>
