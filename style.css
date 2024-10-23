@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-titulo: "Playwrite GB S", cursive;
+    --fonte-texto: "Arima", system-ui;
+    --cor-cabecalho: #caa8f5ff;
+    --cor-cartao: #9984d4ff;
+    --cor-fundo: #592e83ff;
+    --cor-texto: #230c33ff;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-texto);
+}
+
+header {
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 2em;
+    color: var(--cor-texto);
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+}
+
+.projetos {
+    padding: 2em;
+    display: flex;
+}
+

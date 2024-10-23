@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Secreto II</title>
+</head>
+<body>
+    <script>
+        function pulalinha() {
+            document.write('<br>')
+        }
+
+        function mostrar(texto) {
+            document.write(texto)
+            pulalinha()
+        }
+
+        let numeroPensado = Math.round(Math.random() * 10)
+        console.log(numeroPensado)
+
+        let tentativa = 1
+
+        while(tentativa <= 3){
+            let chute = parseInt(prompt('Digite um número de 0 a 10'))
+
+            if(numeroPensado == chute){
+                mostrar('Você acertou!')
+                break
+            }else{
+                mostrar('Você errou, tente novamente')
+            }
+            tentativa = tentativa + 1
+        }
+        mostrar(`O número pensado era ${numeroPensado}`)
+    </script>
+</body>
+</html>
