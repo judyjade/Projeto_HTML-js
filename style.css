@@ -19,7 +19,7 @@ body {
     font-family: var(--fonte-texto);
 }
 
-header {
+header, footer {
     background-color: var(--cor-cabecalho);
     text-align: center;
     padding: 2em;
@@ -58,3 +58,7 @@ header h1 {
     color: purple;
 }
 
+footer a {
+    text-decoration: none;
+    color: purple;
+}
