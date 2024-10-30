@@ -58,7 +58,34 @@ header h1 {
     color: purple;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer a {
     text-decoration: none;
     color: purple;
+}
+
+.principal-numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.numero-input {
+    font-size: 1.5em;
+    border: 10px;
+}
+
+.numero-botao {
+    margin-left: 1em;
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: var(--cor-cartao);
+    color: var(--cor-texto);
+    border: 15px;
 }
