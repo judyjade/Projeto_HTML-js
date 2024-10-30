@@ -18,6 +18,7 @@ function verifica(){
     }
     campoNumero = ''
     campoNumero.focus()
+}
 
 let botao = document.querySelector("button")
 botao.onclick = verifica
