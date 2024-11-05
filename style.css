@@ -58,6 +58,10 @@ header h1 {
     color: purple;
 }
 
+.ultimo-cartao {
+    margin-bottom: 5em;
+}
+
 footer {
     position: fixed;
     bottom: 0;
